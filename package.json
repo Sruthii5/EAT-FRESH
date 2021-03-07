@@ -1,0 +1,49 @@
+{
+  "name": "ewa_term_project",
+  "version": "1.0.0",
+  "description": "This is the final project for Enterprise Web Application. The application here is a fullstact MERN with mySql and GraphQl Ecommerce Grocery Hub",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon --experimental-json-modules backend/server",
+    "client": "npm start --prefix frontend",
+    "start": "node  ./backend/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsaikia/EWA_Term_Project.git"
+  },
+  "keywords": [
+    "ewa"
+  ],
+  "author": "Arunabh Saikia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arsaikia/EWA_Term_Project/issues"
+  },
+  "homepage": "https://github.com/arsaikia/EWA_Term_Project#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mongoose": "^5.10.16",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "python-shell": "^2.0.3",
+    "react-google-maps": "^9.4.5",
+    "react-router-bootstrap": "^0.25.0",
+    "sequelize": "^6.3.5",
+    "typeface-roboto": "^1.1.13",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "concurrency": "^0.1.4",
+    "nodemon": "^2.0.6"
+  }
+}
