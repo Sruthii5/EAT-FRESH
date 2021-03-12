@@ -14,7 +14,7 @@ Entity relationship model for database:
  
 Code structure overview: 
 The root folder of the application is `\EAT-FRESH` which contains the 
-`\EWA_Term_Project\frontend` and `\EAT-FRESH\backend` code. The entry point for backend is `..\backend\server.js` and for frontend is `..\frontend\src\App.js`. All API keys and credentials are stored in the `.env` file. 
+`\EAT-FRESH\frontend` and `\EAT-FRESH\backend` code. The entry point for backend is `..\backend\server.js` and for frontend is `..\frontend\src\App.js`. All API keys and credentials are stored in the `.env` file. 
   
 To run the application locally, please install node and npm on your system and then install the required node modules for both frontend and backend as following: 
 1.	Backend : go to path `\EAT-FRESH` and run `npm install` 
